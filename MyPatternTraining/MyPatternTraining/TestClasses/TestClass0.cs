@@ -9,7 +9,7 @@
 
         internal void TestMethod()
         {
-            Console.WriteLine("TestMethod");
+            Console.WriteLine("TestMethod from TestClass0");
         }
     }
 }

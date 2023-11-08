@@ -1,4 +1,5 @@
-﻿using MyPatternTraining.Creational.FactoryMethod;
+﻿using MyPatternTraining.Creational.Builder;
+using MyPatternTraining.Creational.FactoryMethod;
 using MyPatternTraining.Creational.Prototype;
 using MyPatternTraining.Creational.Singleton;
 using MyPatternTraining.TestClasses;
@@ -31,3 +32,12 @@ Console.WriteLine("My patter trainings");
 //Console.WriteLine(test1.Prop1);
 //Console.WriteLine(test1.Prop2);
 //Console.WriteLine(test1.Prop3);
+
+//Fluent Builder
+//var builder = new TestClass0Builder();
+//builder
+//    .AddProp1(23)
+//    .AddProp2(84)
+//    .AddProp3(312312);
+//var test0 = builder.Build();
+//Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(test0));

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPatternTraining.TestClasses
 {
-    internal class TestClass1
+    internal class TestClass1 : TestClass01Parent
     {
         public string Text { get; set; }
 

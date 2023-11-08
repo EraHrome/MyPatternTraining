@@ -1,13 +1,13 @@
 ﻿using MyPatternTraining.TestClasses;
 
-namespace MyPatternTraining.Creational.Singleton
+namespace MyPatternTraining.Creational.FactoryMethod
 {
-    internal abstract class ClassWithFactoryMethod<T>
+    internal abstract class ClassWithFactoryMethodGeneric<T>
     {
         internal abstract T Create();
     }
 
-    internal class ConcreteClassWithFactoryMethod0 : ClassWithFactoryMethod<TestClass0>
+    internal class ConcreteClassWithFactoryMethod0 : ClassWithFactoryMethodGeneric<TestClass0>
     {
         internal override TestClass0 Create()
         {
@@ -15,7 +15,7 @@ namespace MyPatternTraining.Creational.Singleton
         }
     }
 
-    internal class ConcreteClassWithFactoryMethod1 : ClassWithFactoryMethod<TestClass1>
+    internal class ConcreteClassWithFactoryMethod1 : ClassWithFactoryMethodGeneric<TestClass1>
     {
         internal override TestClass1 Create()
         {

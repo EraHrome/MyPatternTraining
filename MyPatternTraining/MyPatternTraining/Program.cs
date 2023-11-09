@@ -1,4 +1,5 @@
 ﻿using MyPatternTraining.Behavioral;
+using MyPatternTraining.Behavioral.Observer;
 using MyPatternTraining.Behavioral.Strategy;
 using MyPatternTraining.Creational.Builder;
 using MyPatternTraining.Creational.FactoryMethod;
@@ -50,3 +51,9 @@ Console.WriteLine("My pattern trainings");
 //test0.MethodWithStrategy();
 //test0.Strategy = new ConcreteStrategy2();
 //test0.MethodWithStrategy();
+
+//Observer
+//var observer1 = new ConcreteObserver1();
+//var observer2 = new ConcreteObserver2();
+//var classWithObserver = new TestClass0WithObserver(new List<IObserver> { observer1, observer2 });
+//classWithObserver.NotifyObservers("notify message");

@@ -57,3 +57,14 @@ Console.WriteLine("My pattern trainings");
 //var observer2 = new ConcreteObserver2();
 //var classWithObserver = new TestClass0WithObserver(new List<IObserver> { observer1, observer2 });
 //classWithObserver.NotifyObservers("notify message");
+
+//Custom Command
+//var commandsInvoker = new CommandsInvoker();
+//commandsInvoker
+//    .AddCommand(new MyPatternTraining.Behavioral.Command.Command("+", 3))
+//    .AddCommand(new MyPatternTraining.Behavioral.Command.Command("-", 3))
+//    .AddCommand(new MyPatternTraining.Behavioral.Command.Command("*", 99))
+//    .AddCommand(new MyPatternTraining.Behavioral.Command.Command("+", 1))
+//    .AddCommand(new MyPatternTraining.Behavioral.Command.Command("*", 99));
+//
+//Console.WriteLine(commandsInvoker.Invoke());

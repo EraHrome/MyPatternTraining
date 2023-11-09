@@ -1,10 +1,12 @@
-﻿using MyPatternTraining.Creational.Builder;
+﻿using MyPatternTraining.Behavioral;
+using MyPatternTraining.Behavioral.Strategy;
+using MyPatternTraining.Creational.Builder;
 using MyPatternTraining.Creational.FactoryMethod;
 using MyPatternTraining.Creational.Prototype;
 using MyPatternTraining.Creational.Singleton;
 using MyPatternTraining.TestClasses;
 
-Console.WriteLine("My patter trainings");
+Console.WriteLine("My pattern trainings");
 
 //Singleton.
 //var test0 = new Singleton<TestClass0>();
@@ -41,3 +43,10 @@ Console.WriteLine("My patter trainings");
 //    .AddProp3(312312);
 //var test0 = builder.Build();
 //Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(test0));
+
+
+//Strategy
+//var test0 = new TestClassWithStrategy(new ConcreteStrategy1());
+//test0.MethodWithStrategy();
+//test0.Strategy = new ConcreteStrategy2();
+//test0.MethodWithStrategy();
